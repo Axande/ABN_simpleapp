@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ABN_simple app</string>
+
+    <string name="title">L\'Ardei</string>
+
+    <string name="business_description"> L\'Ardei is a company who owns more than 3000 species of hot pepper; collected during over
+        100 years.</string>
+</resources>
