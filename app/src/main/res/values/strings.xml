@@ -3,6 +3,14 @@
 
     <string name="title">L\'Ardei</string>
 
-    <string name="business_description"> L\'Ardei is a company who owns more than 3000 species of hot pepper; collected during over
-        100 years.</string>
+    <string name="business_description"> L\'Ardei is a company who owns more than 3000 species of hot pepper collected over
+        a century. Our peppers are collected from all over the world: Chile, Argentina, India, Mexico, etc.</string>
+    <string name="contact">Contact information</string>
+    <string name="phone">Phone: 222-222-22</string>
+    <string name="email">Email: LArdei@fictive.com</string>
+    <string name="website">Website: LArdei.com</string>
+    <string name="hours">Openning hours: 08:00 - 20:00</string>
+    <string name="goodbye_message">Spice your life!</string>
+    <string name="address">Address: North Pole, AK 99705, USA</string>
+    <string name="rating">5/5</string>
 </resources>

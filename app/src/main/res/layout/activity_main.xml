@@ -9,7 +9,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        >
 
         <!--Begin of title-->
         <LinearLayout
@@ -63,7 +65,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAllCaps="true"
-                android:text="Contact information" />
+                android:text="@string/contact" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -71,7 +73,7 @@
                 android:layout_marginStart="@dimen/_16dp"
                 android:layout_marginEnd="@dimen/_16dp"
                 android:layout_marginTop="@dimen/_8dp"
-                android:text="Phone" />
+                android:text="@string/phone" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -79,7 +81,7 @@
                 android:layout_marginStart="@dimen/_16dp"
                 android:layout_marginEnd="@dimen/_16dp"
                 android:layout_marginTop="@dimen/_8dp"
-                android:text="Email:" />
+                android:text="@string/email" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -87,7 +89,7 @@
                 android:layout_marginStart="@dimen/_16dp"
                 android:layout_marginEnd="@dimen/_16dp"
                 android:layout_marginTop="@dimen/_8dp"
-                android:text="website" />
+                android:text="@string/website" />
 
 
         </LinearLayout>
@@ -101,7 +103,15 @@
             android:layout_marginTop="@dimen/_16dp"
             android:layout_marginStart="@dimen/_16dp"
             android:layout_marginEnd="@dimen/_16dp"
-            android:text="Address:location + link on google maps" />
+
+            android:text="@string/address" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/_16dp"
+            android:background="@android:color/darker_gray"
+            />
 
         <TextView
             android:layout_width="wrap_content"
@@ -118,15 +128,60 @@
             android:layout_marginTop="@dimen/_16dp"
             android:layout_marginStart="@dimen/_16dp"
             android:layout_marginEnd="@dimen/_16dp"
-            android:text="hours" />
+            android:layout_gravity="center_horizontal"
+            android:text="@string/hours" />
 
-        <TextView
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/_16dp"
+            android:background="@android:color/darker_gray"
+            />
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_16dp"
-            android:layout_marginStart="@dimen/_16dp"
-            android:layout_marginEnd="@dimen/_16dp"
-            android:text="rating" />
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_16dp"
+                android:layout_marginEnd="@dimen/_16dp"
+                android:layout_gravity="center_vertical"
+                android:text="@string/rating" />
+
+            <ImageView
+                android:layout_width="@dimen/rating_size"
+                android:layout_height="@dimen/rating_size"
+                android:src="@drawable/gold_star" />
+
+            <ImageView
+                android:layout_width="@dimen/rating_size"
+                android:layout_height="@dimen/rating_size"
+                android:src="@drawable/gold_star" />
+
+            <ImageView
+                android:layout_width="@dimen/rating_size"
+                android:layout_height="@dimen/rating_size"
+                android:src="@drawable/gold_star" />
+
+            <ImageView
+                android:layout_width="@dimen/rating_size"
+                android:layout_height="@dimen/rating_size"
+                android:src="@drawable/gold_star" />
+
+            <ImageView
+                android:layout_width="@dimen/rating_size"
+                android:layout_height="@dimen/rating_size"
+                android:src="@drawable/gold_star" />
+
+
+        </LinearLayout>
+
+
 
         <TextView
             android:layout_width="wrap_content"
@@ -135,7 +190,7 @@
             android:layout_gravity="center_horizontal"
             android:textAllCaps="true"
             android:textSize="@dimen/medium"
-            android:text="Enjoy your food! / I bet you burn to take them" />
+            android:text="@string/goodbye_message" />
 
 
     </LinearLayout>

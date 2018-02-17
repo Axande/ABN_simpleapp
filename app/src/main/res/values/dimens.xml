@@ -11,5 +11,6 @@
     <dimen name="small">8sp</dimen>
 
     <dimen name="logo_size">72dp</dimen>
+    <dimen name="rating_size">24dp</dimen>
 
 </resources>
