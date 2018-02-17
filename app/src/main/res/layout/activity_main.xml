@@ -41,8 +41,7 @@
         <!--End of title-->
 
         <!--
-        Category: Free stock images
-        Link: http://www.tokkoro.com/3055481-chili_chilli_cooking_dried_dry_food_gourmet_hot_ingredient_kitchen_natural_organic_paprika_pepper_raw_red_spice_spicy_vegetable_vegetarian_wood.html
+        Link: https://www.cheatsheet.com/culture/love-spicy-food-recipes-you-have-to-try.html/?a=viewall
         -->
         <ImageView
             android:layout_width="match_parent"
@@ -153,6 +152,10 @@
                 android:layout_gravity="center_vertical"
                 android:text="@string/rating" />
 
+
+            <!--
+            Link: https://commons.wikimedia.org/wiki/File:Gold_Star.svg
+            -->
             <ImageView
                 android:layout_width="@dimen/rating_size"
                 android:layout_height="@dimen/rating_size"
